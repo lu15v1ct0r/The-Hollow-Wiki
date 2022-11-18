@@ -58,7 +58,7 @@ video
 #menu h1 a
 {
     text-decoration: none;
-    padding: 2% 70px 2% 70px;
+    padding: 2% 15% 2% 15%;
     display: inline-block;
     transition: background .6s;
 }
