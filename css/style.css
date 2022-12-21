@@ -1,73 +1,97 @@
-*
-{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-body 
-{
-    background-image: url("../imgs/1.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-a 
-{
-    color: white;
-}
-
-div 
-{
-    color: white;
-    text-align: justify;
-    font-size: 135%;
-    margin: 0 150px 3% 150px;
-}
-
-img 
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-iframe 
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-audio
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-video
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#menu{
-    font-size: small;
-    background-color: #03153d;
-    margin: 0 0 6% 0;
-    padding: 0;
-}
-#menu h1 a
-{
-    text-decoration: none;
-    padding: 1% 5% 1% 5%;
-    display: inline-block;
-    transition: background .6s;
-}
-#menu h1 a:hover
-{
-    background-color: #020e29;
-}
-p
-{
-    font-size: 250%;
-    text-align: justify;
-}
+        * {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        body {
+            background-image: url("../imgs/1.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        div {
+            color: white;
+            text-align: justify;
+            font-size: 135%;
+            margin: 0 150px 3% 150px;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        iframe {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        audio {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        video {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #menu div {
+            font-size: 200%;
+            background-color: #03153d;
+            margin: 0 0 6% 0;
+            padding: 0;
+        }
+        
+        li>a {
+            text-decoration: none;
+            padding: 1% 4% 1% 4%;
+            display: inline-block;
+            transition: background .6s;
+        }
+        
+        #menu div ul li {
+            background-color: #03153d;
+            text-decoration: none;
+            display: inline;
+            text-align: center;
+            padding: 0;
+        }
+        
+        #menu div ul li a:hover {
+            background-color: #020e29;
+        }
+        
+        #menu div ul ul {
+            display: none;
+            left: 18%;
+            position: absolute;
+            width: 15%;
+        }
+        
+        #menu div ul ul li {
+            display: inline;
+        }
+        
+        #menu div ul li:hover ul {
+            background-color: #03153d;
+            display: block;
+        }
+        
+        #menu div ul ul li a {
+            display: block;
+        }
+        
+        p {
+            font-size: 250%;
+            text-align: justify;
+        }
