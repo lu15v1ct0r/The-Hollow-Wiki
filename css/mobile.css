@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("../imgs/1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a {
+    color: white;
+}
+
+div {
+    color: white;
+    text-align: justify;
+    font-size: 135%;
+    margin: 0 8% 3% 8%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a>img{
+    width: 300px;
+}
+#map img{
+    width: 325px;
+}
+
+#map iframe{
+    width: 325px;
+    height: 200px;
+}
+
+#hist iframe{
+    width: 325px;
+    height: 200px;
+}
+
+#menu div {
+    font-size: 130%;
+    background-color: #03153d;
+    margin: 0 0 6% 0;
+    padding: 0;
+}
+#menu img {
+    width: 40%;
+}
+
+li>a {
+    text-decoration: none;
+    padding: 1% 4% 1% 4%;
+    display: block;
+    transition: background .6s;
+}
+
+#menu div ul li {
+    background-color: #03153d;
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+    padding: 0;
+}
+
+#menu div ul li a:hover {
+    background-color: #020e29;
+}
+
+#menu div ul ul {
+    display: none;
+    left: 0%;
+    position: relative;
+    width: 80%;
+}
+
+#menu div ul ul li {
+    display: inline;
+}
+
+#menu div ul li:enabled ul {
+    background-color: #03153d;
+    display: block;
+}
+
+#menu div ul ul li a {
+    display: block;
+}
+
+p {
+    font-size: 250%;
+    text-align: justify;
+}
